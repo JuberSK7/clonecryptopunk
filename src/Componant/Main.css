@@ -1,0 +1,102 @@
+.Main {
+    max-height: 50vh;
+}
+
+.mainContain {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+
+}
+
+.punkHighLight {
+    flex: 0.25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punkContainer {
+    border-radius: 20px;
+    overflow: hidden;
+
+    display: flex;
+    margin-right: 20px;
+}
+.punkDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+.selectPunk {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    font-size: 86px;
+    font-weight: 800;
+}
+
+.itemNumber {
+    font-size: 72px;
+    align-items: center;
+}
+.oWners {
+    display: flex;
+    
+    margin: 20px 0;
+    height: 50px;
+}
+
+.oWners > div {
+    margin: 0 5px;
+}
+
+.oWnerContainer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.oWnerContainer > img {
+     height: 100%;
+     width: 100%;
+}
+
+.ownerDetail {
+    display: flex;
+    align-items: center;
+    flex: 1;
+ 
+   
+    
+}
+
+
+
+.ownerNmaeHandel {
+    flex: 1;
+}
+ 
+.oWnerHandel {
+    color: #00ebfe;
+}
+
+.oWnerLink {
+    padding: 12px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    
+    margin: 0 0 0 10px;
+}
+
+.oWnerLink > img {
+  height: 100%;
+  width: 100%;
+}
