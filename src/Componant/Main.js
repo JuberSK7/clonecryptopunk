@@ -9,8 +9,6 @@ const Main = ({ selectedPunk, punkListData }) => {
 
     const [activePunk, setActivePunk] =  useState(punkListData[0])
   
-
-
     useEffect(() => {
         setActivePunk(punkListData[selectedPunk])
     }, [punkListData, selectedPunk])
@@ -54,7 +52,6 @@ const Main = ({ selectedPunk, punkListData }) => {
                     </div>
                   </div>
               </div>
-
         </div>
     </div>
 
